@@ -3,27 +3,32 @@
     padding: 0;
     margin: 0;
 }
-
+/*Sets body element background colour: Off white  */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header element styling */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    
 }
 
+/*Applies styling to the h1 tags within the header element*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Applies styling to the seo class in the h1 tags within the header element */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Applies styling to the div tags within the header element */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,11 +37,13 @@ header div {
     font-size: 20px;
 }
 
+/*Applies styling to the li tags within the header element */
 header li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 }
+
 
 a {
     color: #ffffff;
@@ -46,7 +53,7 @@ a {
 p {
     font-size: 16px;
 }
-/* Contains and formats the  */
+/* Contains and formats the hero class backgroundimage  */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,23 +62,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*  */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
-/*   */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
-/*   */
+/* Applies styling to the content class element  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/*   */
+/* Applies styling to the benefits class element  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -82,27 +89,28 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*   */
+/* Applies styling to the benefits_1 class element  */
 .benefit_1 {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*   */
+/* Applies styling to the h3 tags within the benefit_1 class  */
 .benefit_1 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*   */
+/* Applies styling to the img tags within the benefit_1 class  */
 .benefit_1 img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+
 }
 
-/*   */
-.navigation {
+/* Applies styling to the services class   */
+.services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -110,24 +118,24 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*   */
-.navigation img{
+/*  Applies styling to the img tags within the services class  */
+.services img{
     max-height: 200px;
 }
 
-/*   */
-.navigation h2 {
+/*  Applies styling to the h2 tags within the services class  */
+.services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*   */
+/*  Applies styling to the footer element  */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/*   */
+/*  Applies styling to the h2 tags within the footer element  */
 footer h2 {
     font-size: 20px;
 }
